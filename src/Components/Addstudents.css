@@ -1,0 +1,94 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+}
+.page{
+    display:flex;
+    flex-direction: column;
+    /* background-color: brown; */
+    width: 100%;
+    gap: 8vh;
+    background-color: rgb(240, 239, 239);
+}
+.topbar{
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    justify-content: space-between;
+    background-color: rgb(209, 207, 207);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+p{
+    width:80vw;
+    text-align: center;
+    background-color:  rgb(240, 239, 239);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    font-weight: bold;
+}
+.addbutton{
+    height: 100%;
+    background-color:rgb(133, 133, 133);
+    border: none;
+    color: white;
+    align-self: flex-end;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 2vh;
+}
+.back{
+    height: 100%;
+    background-color:rgb(133, 133, 133);
+    border: none;
+    color: white;
+    padding: 2vh;
+    align-self: flex-start;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+button:hover , .navigate:hover{
+    cursor: pointer;
+}
+.del{
+    height: 100%;
+    background-color:rgb(133, 133, 133);
+    padding: 2vh;
+    font-size: small;
+    border: none;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.mentor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    margin: 0;
+    background-color: rgb(215, 234, 240);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+   
+  }
+  .mentor-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }  
+  .mentorpage{
+    display: flex;
+    flex-direction: column;
+    gap: 6vh;
+    align-items: center;
+  }
+  .card{
+    font-size: small;
+  }
+  .box{
+    width:50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 3vh;
+    padding: 3vh;
+  }
